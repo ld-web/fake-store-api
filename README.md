@@ -283,6 +283,18 @@ POST:
 
 - /auth/login
 
+## Fixtures
+
+Fixtures can create fake data automatically by launching the `fixtures/seed.js` script :
+
+```bash
+# CLI
+node fixtures/seed.js
+
+# In Docker container
+docker-compose exec app node fixtures/seed.js
+```
+
 ## ToDo
 
 - Add graphql support
